@@ -1,0 +1,32 @@
+.product-price {
+    font-weight: bold;
+    color: #09ff00;
+}
+.product-description {
+    color: #fffefe;
+}
+
+/* Used copilot to help this one*/
+.product-card {
+    width: 300px;  
+    margin: 20px 0; 
+  padding: 15px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  
+} 
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.product-image {
+    width: 150px;
+    height: auto;
+}
+.products-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}

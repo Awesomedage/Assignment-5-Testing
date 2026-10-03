@@ -1,0 +1,31 @@
+.hero {
+  position: relative;        /* allows overlay positioning */
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* This puts the text ON TOP of the image */
+.hero-overlay {
+  position: absolute;
+  top: 50%;                  /* center vertically */
+  left: 50%;                 /* center horizontally */
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+.hero-cta {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: rgb(0, 255, 34);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

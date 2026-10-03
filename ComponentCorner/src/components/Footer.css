@@ -1,0 +1,20 @@
+.footer-title {
+   font-size: 1.5rem;
+   margin-bottom: 10px;
+ }
+
+ .footer {
+   background-color: #030057;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+   margin-top: 40px;
+ }
+
+ .footer-links {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+ }
