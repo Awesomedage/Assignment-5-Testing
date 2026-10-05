@@ -10,9 +10,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ketchupImg from "./Ketchup.jpg";
 import switchImg from "./Switch.jpg";
 import shoesImg from "./TennisShoes.jpg";
-import blackJacketImg from "./Black-Jacket.jpg";
-import redBackpackImg from "./Red-Backpack.jpg";
-import mechanicalPencilImg from "./Mechanical-Pencil.jpg";
+import blackJacketImg from "./blackjacket.jpg";
+import redBackpackImg from "./redbackpack.jpg";
+import mechanicalPencilImg from "./mechanicalpencil.jpg";
+
 
 
 function App() {
