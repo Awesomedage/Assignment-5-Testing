@@ -1,4 +1,5 @@
 // CartItem.jsx
+import './CartItem.css';
 
 function CartItem({ product, onRemoveFromCart }) {
   return (

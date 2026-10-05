@@ -7,37 +7,44 @@ import ProductsPage from './pages/ProductsPage';
 import CartPage from './pages/CartPage';
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ketchupImg from "./Ketchup.jpg";
+import switchImg from "./Switch.jpg";
+import shoesImg from "./TennisShoes.jpg";
+import blackJacketImg from "./Black Jacket.jpg";
+import redBackpackImg from "./Red Backpack.jpg";
+import mechanicalPencilImg from "./Mechanical Pencil.jpg";
+
 
 function App() {
   const products = [
     { id: 1, 
       name: "Tennis shoes", 
       price: 29.99, 
-      image: "https://placehold.co/600x400", 
+      image: shoesImg, 
       description: "Very comfortable shoes for running and walking." },
     { id: 2, 
       name: "Nintendo switch", price: 299.99, 
-      image: "https://placehold.co/600x400", 
+      image: switchImg, 
       description: "Nintendo's most popular gaming console." },
     { id: 3, 
       name: "Ketchup packet", 
       price: 1.99, 
-      image: "https://placehold.co/600x400", 
-      description: "World's tastiest ketchup." },
+      image: ketchupImg, 
+      description: "within this packet holds the world's tastiest ketchup." },
     { id: 4, 
-      name: "Alabama backpack", 
+      name: "Red backpack", 
       price: 49.99, 
-      image: "https://placehold.co/600x400", 
-      description: "Perfect for students and fans." },
+      image: redBackpackImg, 
+      description: "Perfect for students and people who like the color red." },
     { id: 5, 
       name: "Mechanical pencil", 
       price: 1.99, 
-      image: "https://placehold.co/600x400", 
-      description: "High-quality mechanical pencil." },
+      image: mechanicalPencilImg, 
+      description: "One single High-quality mechanical pencil." },
     { id: 6, 
       name: "Black jacket", 
       price: 19.99, 
-      image: "https://placehold.co/600x400", 
+      image: blackJacketImg, 
       description: "Warm and stylish." }
   ];
 
