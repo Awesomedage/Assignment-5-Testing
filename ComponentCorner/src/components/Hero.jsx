@@ -5,7 +5,7 @@ function Hero({ title, subtitle, cta }) {
   return (
     <section className="hero">
       <img
-        src="https://placehold.co/1200x400/667eea/ffffff?text=Everything+Store"
+        src="https://placehold.co/1200x400/667eea/ffffff?text=The+Everything+Store"
         alt={title}
         className="hero-image"
       />
