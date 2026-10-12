@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Header({ cartCount }) {
   return (
     <header className="app-header">
-      <h1 className="app-title">ComponentCorner</h1>
+      <h1 className="app-title">The Everything store</h1>
 
       <nav className="nav-menu">
         <Link to="/" className="nav-link">
